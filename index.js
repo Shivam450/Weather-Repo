@@ -32,7 +32,7 @@ async function checkWeather(city){
         alert("Check your internet")
     }
 }
-
+//Changes
 searchBtn.addEventListener("click", ()=> {
     checkWeather(searchBox.value);
 })
